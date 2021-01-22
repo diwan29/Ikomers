@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Beranda"
+        android:iconTint="@color/primarycolor"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item
+        android:title="Produk"
+        android:iconTint="@color/primarycolor"
+        android:icon="@drawable/ic_baseline_widgets_24"/>
+
+    <item
+        android:title="Order"
+        android:iconTint="@color/primarycolor"
+        android:icon="@drawable/ic_baseline_border_color_24"/>
+
+    <item
+        android:title="Akun"
+        android:iconTint="@color/primarycolor"
+        android:icon="@drawable/ic_baseline_account_circle_24"/>
+
+</menu>
