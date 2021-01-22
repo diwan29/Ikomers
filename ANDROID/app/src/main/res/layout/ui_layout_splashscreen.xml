@@ -8,6 +8,15 @@
         android:paddingBottom="50dp">
 
 
+        <TextView
+            android:id="@+id/screentxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="Diareku"
+            android:textColor="#FFFFFF"
+            android:textSize="40" />
+
         <ProgressBar
             android:id="@+id/loadingScreen"
             style="?android:attr/progressBarStyle"
