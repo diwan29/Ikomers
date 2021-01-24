@@ -22,7 +22,7 @@
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/aladin"
+                android:fontFamily="@font/jockey_one"
                 android:gravity="center"
                 android:text="Ringkasan Orderan"
                 android:textColor="@color/secondarycolor"
@@ -107,7 +107,9 @@
                             android:background="@null"
                             android:ems="10"
                             android:inputType="textPersonName"
-                            android:text="Nama Barang111111111111"
+                            android:maxLength="20"
+                            android:singleLine="false"
+                            android:text="Nama Barang234567890"
                             android:textSize="14sp" />
 
                         <EditText
@@ -179,6 +181,7 @@
                             android:background="@null"
                             android:ems="10"
                             android:inputType="textPersonName"
+                            android:maxLength="20"
                             android:text="Nama Barang"
                             android:textSize="14sp" />
 
@@ -251,6 +254,7 @@
                             android:background="@null"
                             android:ems="10"
                             android:inputType="textPersonName"
+                            android:maxLength="20"
                             android:text="Nama Barang"
                             android:textSize="14sp" />
 
@@ -323,6 +327,7 @@
                             android:background="@null"
                             android:ems="10"
                             android:inputType="textPersonName"
+                            android:maxLength="20"
                             android:text="Nama Barang"
                             android:textSize="14sp" />
 
@@ -395,6 +400,7 @@
                             android:background="@null"
                             android:ems="10"
                             android:inputType="textPersonName"
+                            android:maxLength="20"
                             android:text="Nama Barang"
                             android:textSize="14sp" />
 

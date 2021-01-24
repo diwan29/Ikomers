@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        tools:ignore="VectorDrawableCompat">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tmpt_bayar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_above="@id/menubottom">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/primarycolor">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            android:tint="@color/secondarycolor"
+                            app:srcCompat="@drawable/ic_baseline_add_24" />
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="01"
+                            android:textColor="@color/white" />
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageView
+                            android:id="@+id/imageView10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="fitCenter"
+                            android:tint="@color/secondarycolor"
+                            app:srcCompat="@drawable/ic_baseline_horizontal_rule_24" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <Space
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="Tambahkan ke Keranjang"
+                    android:textSize="8sp"
+                    app:backgroundTint="@color/primarycolor" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/tmpt_bayar"
+            android:layout_below="@id/pembayaran"
+            android:layout_centerInParent="true"
+            android:fillViewport="true"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="390dp"
+                    android:layout_height="390dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/img_place_holder" />
+                </androidx.cardview.widget.CardView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="5"
+                        android:fontFamily="@font/kadwa"
+                        android:text="Nama barang"
+                        android:textColor="@color/secondarycolor"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        app:drawableTint="@null" />
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/ic_baseline_favorite_24"
+                        app:tint="@color/secondarycolor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="5"
+                        android:fontFamily="@font/kadwa"
+                        android:text="Rp. 10.000"
+                        android:textColor="@color/secondarycolor"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        app:drawableTint="@null" />
+
+                    <me.zhanghai.android.materialratingbar.MaterialRatingBar
+                        style="@style/Widget.MaterialRatingBar.RatingBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:minHeight="15dp"
+                        android:rating="3.5"
+                        app:mrb_progressTint="@color/secondarycolor"
+                        android:progressBackgroundTint="@color/secondarycolor"
+                        android:indeterminateTint="@color/secondarycolor"
+                        app:mrb_secondaryProgressTint="@color/secondarycolor"/>
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="0.5"
+                        android:fontFamily="@font/kadwa"
+                        android:gravity="right"
+                        android:paddingRight="20dp"
+                        android:text="100 Reviews"
+                        android:textColor="@color/secondarycolor"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        app:drawableTint="@null" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Ini tempat untuk memberikan keterangan barang"
+                    android:textColor="@color/secondarycolor" />
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <LinearLayout
+            android:id="@+id/pembayaran"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/primarycolor"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:id="@+id/hazebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+                app:tint="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/txtkeranjang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Nama Barang"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/menubottom"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_alignParentBottom="true"
+            android:foregroundGravity="bottom"
+            app:itemIconTint="@color/secondarycolor"
+            app:itemTextColor="@color/secondarycolor"
+            app:labelVisibilityMode="labeled"
+            app:menu="@menu/ui_layout_beranda_bottom" />
+
+    </RelativeLayout>
+
+</layout>
