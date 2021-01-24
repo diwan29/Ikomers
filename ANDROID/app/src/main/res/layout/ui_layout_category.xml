@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:ignore="VectorDrawableCompat">
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -16,6 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:layout_alignParentBottom="true"
+            android:layout_marginBottom="-2dp"
             android:foregroundGravity="bottom"
             app:itemIconTint="@color/secondarycolor"
             app:itemTextColor="@color/secondarycolor"
@@ -41,7 +43,7 @@
                 tools:ignore="VectorDrawableCompat" />
 
             <TextView
-                android:id="@+id/txtberanda"
+                android:id="@+id/txtkategori"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
