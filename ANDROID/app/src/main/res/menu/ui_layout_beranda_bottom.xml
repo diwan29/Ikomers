@@ -6,7 +6,7 @@
         android:icon="@drawable/ic_baseline_home_24"/>
 
     <item
-        android:title="Produk"
+        android:title="Kategori"
         android:iconTint="@color/primarycolor"
         android:icon="@drawable/ic_baseline_widgets_24"/>
 
