@@ -11,9 +11,9 @@
         android:icon="@drawable/ic_baseline_widgets_24"/>
 
     <item
-        android:title="Order"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
         android:iconTint="@color/primarycolor"
-        android:icon="@drawable/ic_baseline_border_color_24"/>
+        android:title="Keranjang" />
 
     <item
         android:title="Akun"

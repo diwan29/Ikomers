@@ -20,7 +20,7 @@
             android:orientation="vertical">
 
             <LinearLayout
-                android:id="@+id/berandatoolbar"
+                android:id="@+id/pembayaran"
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:background="@null"
@@ -38,7 +38,7 @@
                     tools:ignore="VectorDrawableCompat" />
 
                 <TextView
-                    android:id="@+id/txtkategori"
+                    android:id="@+id/txtkeranjang"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -184,7 +184,7 @@
                     android:layout_height="50dp"
                     android:background="@null"
                     android:scaleType="fitCenter"
-                    app:srcCompat="@drawable/ic_baseline_shopping_cart_24"
+                    app:srcCompat="@drawable/ic_baseline_notifications_24"
                     app:tint="@color/secondarycolor" />
 
                 <Space
@@ -199,7 +199,7 @@
                     android:ems="10"
                     android:gravity="center_vertical"
                     android:inputType="textPersonName"
-                    android:text="Orderan"
+                    android:text="Notifikasi"
                     android:textColor="@color/secondarycolor"
                     android:textColorHint="@color/primarycolor"
                     android:textColorLink="@color/primarycolor"
@@ -273,7 +273,7 @@
                     android:ems="10"
                     android:gravity="center_vertical"
                     android:inputType="textPersonName"
-                    android:text="Tentang"
+                    android:text="Tentang Aplikasi"
                     android:textColor="@color/secondarycolor"
                     android:textColorHint="@color/primarycolor"
                     android:textColorLink="@color/primarycolor"

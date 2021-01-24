@@ -25,7 +25,7 @@
             app:menu="@menu/ui_layout_beranda_bottom" />
 
         <LinearLayout
-            android:id="@+id/berandatoolbar"
+            android:id="@+id/pembayaran"
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:background="@color/primarycolor"
@@ -43,7 +43,7 @@
                 tools:ignore="VectorDrawableCompat" />
 
             <TextView
-                android:id="@+id/txtkategori"
+                android:id="@+id/txtkeranjang"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -68,7 +68,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_above="@id/menubottom"
-            android:layout_below="@id/berandatoolbar"
+            android:layout_below="@id/pembayaran"
             android:layout_marginStart="5dp"
             android:layout_marginLeft="5dp"
             android:layout_marginTop="40dp"

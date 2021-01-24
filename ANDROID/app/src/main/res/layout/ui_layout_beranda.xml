@@ -9,7 +9,7 @@
         tools:ignore="VectorDrawableCompat">
 
         <LinearLayout
-            android:id="@+id/berandatoolbar"
+            android:id="@+id/pembayaran"
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:background="@color/primarycolor"
@@ -27,7 +27,7 @@
                 app:tint="#FFFFFF" />
 
             <TextView
-                android:id="@+id/txtkategori"
+                android:id="@+id/txtkeranjang"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -36,16 +36,6 @@
                 android:text="Beranda"
                 android:textColor="#FFFFFF"
                 android:textSize="18sp" />
-
-            <ImageView
-                android:id="@+id/notifbtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="4dp"
-                android:background="@null"
-                app:srcCompat="@drawable/ic_baseline_notifications_24"
-                tools:ignore="VectorDrawableCompat" />
 
             <ImageView
                 android:id="@+id/caribtn"
@@ -73,7 +63,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_above="@id/menubottom"
-            android:layout_below="@id/berandatoolbar"
+            android:layout_below="@id/pembayaran"
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
@@ -106,7 +96,7 @@
 
                 <Space
                     android:layout_width="match_parent"
-                    android:layout_height="10dp" />
+                    android:layout_height="15dp" />
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/beranda_category"
