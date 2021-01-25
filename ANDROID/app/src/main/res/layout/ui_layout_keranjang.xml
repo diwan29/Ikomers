@@ -64,12 +64,12 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="20"
-                android:layout_marginLeft="20"
-                android:layout_marginTop="20"
-                android:layout_marginEnd="20"
-                android:layout_marginRight="20"
-                android:layout_marginBottom="20"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
                 android:orientation="vertical">
 
                 <androidx.cardview.widget.CardView
@@ -88,7 +88,6 @@
                         android:padding="10dp">
 
                         <ImageView
-                            android:id="@+id/imageView4"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:scaleType="centerCrop"
@@ -100,7 +99,6 @@
                             android:layout_weight="1" />
 
                         <EditText
-                            android:id="@+id/editTextTextPersonName6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -113,7 +111,6 @@
                             android:textSize="14sp" />
 
                         <EditText
-                            android:id="@+id/editTextTextPersonName7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="20"
@@ -124,7 +121,6 @@
                             android:textSize="14sp" />
 
                         <EditText
-                            android:id="@+id/editTextTextPersonName3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="9"
@@ -135,7 +131,6 @@
                             android:textSize="14sp" />
 
                         <ImageView
-                            android:id="@+id/imageView5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -162,7 +157,6 @@
                         android:padding="10dp">
 
                         <ImageView
-                            android:id="@+id/imageView4"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:scaleType="centerCrop"
@@ -174,7 +168,6 @@
                             android:layout_weight="1" />
 
                         <EditText
-                            android:id="@+id/editTextTextPersonName6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -186,7 +179,6 @@
                             android:textSize="14sp" />
 
                         <EditText
-                            android:id="@+id/editTextTextPersonName7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="20"
@@ -197,7 +189,6 @@
                             android:textSize="14sp" />
 
                         <EditText
-                            android:id="@+id/editTextTextPersonName3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="9"
@@ -208,7 +199,6 @@
                             android:textSize="14sp" />
 
                         <ImageView
-                            android:id="@+id/imageView5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -235,7 +225,6 @@
                         android:padding="10dp">
 
                         <ImageView
-                            android:id="@+id/imageView4"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:scaleType="centerCrop"
@@ -247,7 +236,6 @@
                             android:layout_weight="1" />
 
                         <EditText
-                            android:id="@+id/editTextTextPersonName6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -259,7 +247,6 @@
                             android:textSize="14sp" />
 
                         <EditText
-                            android:id="@+id/editTextTextPersonName7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="20"
@@ -270,7 +257,6 @@
                             android:textSize="14sp" />
 
                         <EditText
-                            android:id="@+id/editTextTextPersonName3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="9"
@@ -281,7 +267,6 @@
                             android:textSize="14sp" />
 
                         <ImageView
-                            android:id="@+id/imageView5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -308,7 +293,6 @@
                         android:padding="10dp">
 
                         <ImageView
-                            android:id="@+id/imageView4"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:scaleType="centerCrop"
@@ -320,7 +304,6 @@
                             android:layout_weight="1" />
 
                         <EditText
-                            android:id="@+id/editTextTextPersonName6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -332,7 +315,6 @@
                             android:textSize="14sp" />
 
                         <EditText
-                            android:id="@+id/editTextTextPersonName7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="20"
@@ -343,7 +325,6 @@
                             android:textSize="14sp" />
 
                         <EditText
-                            android:id="@+id/editTextTextPersonName3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="9"
@@ -354,7 +335,6 @@
                             android:textSize="14sp" />
 
                         <ImageView
-                            android:id="@+id/imageView5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
